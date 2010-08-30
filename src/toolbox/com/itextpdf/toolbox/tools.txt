@@ -1,0 +1,31 @@
+# This is a list of tools that are available for the iText toolbox
+# $Id: tools.txt 3277 2008-04-19 00:47:48Z xlv $
+
+# Made by Bruno Lowagie:
+
+Bookmarks.Bookmarks2XML: com.itextpdf.toolbox.plugins.Bookmarks2XML
+Manipulate.Burst: com.itextpdf.toolbox.plugins.Burst
+Manipulate.Watermarker: com.itextpdf.toolbox.plugins.Watermarker
+Manipulate.CompressDecompress: com.itextpdf.toolbox.plugins.CompressDecompressPageContent
+Manipulate.Concat: com.itextpdf.toolbox.plugins.Concat
+Encryption.Decrypt: com.itextpdf.toolbox.plugins.Decrypt
+Manipulate.Divide: com.itextpdf.toolbox.plugins.Divide
+Various.DvdCover: com.itextpdf.toolbox.plugins.DvdCover
+Encryption.Encrypt: com.itextpdf.toolbox.plugins.Encrypt
+Various.ExtractAttachments: com.itextpdf.toolbox.plugins.ExtractAttachments
+Various.Handouts: com.itextpdf.toolbox.plugins.Handouts
+Bookmarks.HtmlBookmarks: com.itextpdf.toolbox.plugins.HtmlBookmarks
+Properties.ImageXRefViewer: com.itextpdf.toolbox.plugins.ImageXRefViewer
+Properties.InspectPDF: com.itextpdf.toolbox.plugins.InspectPDF
+Convert2Pdf.KnitTiff: com.itextpdf.toolbox.plugins.KnitTiff
+Manipulate.N-up: com.itextpdf.toolbox.plugins.NUp
+Convert2Pdf.PhotoAlbum: com.itextpdf.toolbox.plugins.PhotoAlbum
+Various.RemoveLaunchApplication: com.itextpdf.toolbox.plugins.RemoveLaunchApplication
+Manipulate.ReversePages: com.itextpdf.toolbox.plugins.ReversePages
+Manipulate.SelectedPages: com.itextpdf.toolbox.plugins.SelectedPages
+Manipulate.Split: com.itextpdf.toolbox.plugins.Split
+Convert2Pdf.Tiff2Pdf: com.itextpdf.toolbox.plugins.Tiff2Pdf
+Convert2Pdf.Txt2Pdf: com.itextpdf.toolbox.plugins.Txt2Pdf
+Bookmarks.XML2Bookmarks: com.itextpdf.toolbox.plugins.XML2Bookmarks
+Manipulate.Normalize: com.itextpdf.toolbox.plugins.Normalize
+Manipulate.Add3D: com.itextpdf.toolbox.plugins.Add3D

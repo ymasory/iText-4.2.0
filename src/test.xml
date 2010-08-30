@@ -41,11 +41,11 @@
         </ant>
         <mkdir dir="${itext.bin.examples}" />
         <javac source="${itext.jdk.examples}" target="${itext.jdk.examples}" srcdir="${itext.src.examples}" destdir="${itext.bin.examples}">
-		<exclude name="com/lowagie/examples/rtf/**"/>
-		<exclude name="com/lowagie/examples/fonts/styles/ExtraStyles.java"/>
-		<exclude name="com/lowagie/examples/general/HelloWorldMultiple.java"/>
-		<exclude name="com/lowagie/examples/general/webapp/HelloWorldServlet.java"/>
-		<exclude name="com/lowagie/examples/objects/tables/alternatives/TablePdfPTable.java"/>
+		<exclude name="com.itextpdf/examples/rtf/**"/>
+		<exclude name="com.itextpdf/examples/fonts/styles/ExtraStyles.java"/>
+		<exclude name="com.itextpdf/examples/general/HelloWorldMultiple.java"/>
+		<exclude name="com.itextpdf/examples/general/webapp/HelloWorldServlet.java"/>
+		<exclude name="com.itextpdf/examples/objects/tables/alternatives/TablePdfPTable.java"/>
         	<classpath refid="itext.examples.classpath"/>
     	</javac>
     </target>
@@ -143,11 +143,11 @@
         <javac source="${itext.jdk.test}" target="${itext.jdk.test}" destdir="${itext.rtf.test}">
 		<src path="${itext.src.test}/rtf"/>
 		<src path="${itext.src.examples}"/>
-		<include name="com/lowagie/text/rtf/**"/>
-		<include name="com/lowagie/examples/rtf/**"/>
-		<include name="com/lowagie/examples/fonts/styles/ExtraStyles.java"/>
-		<include name="com/lowagie/examples/general/HelloWorldMultiple.java"/>
-		<include name="com/lowagie/examples/objects/tables/alternatives/TablePdfPTable.java"/>
+		<include name="com.itextpdf/text/rtf/**"/>
+		<include name="com.itextpdf/examples/rtf/**"/>
+		<include name="com.itextpdf/examples/fonts/styles/ExtraStyles.java"/>
+		<include name="com.itextpdf/examples/general/HelloWorldMultiple.java"/>
+		<include name="com.itextpdf/examples/objects/tables/alternatives/TablePdfPTable.java"/>
             <classpath>
                 <path refid="itext.test.classpath"/>
                 <pathelement location="${itext.rtf.jar}"/>

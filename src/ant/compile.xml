@@ -85,21 +85,21 @@
     <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
     <target name="make.jar" depends="compile" description="--> makes a jarfile from the iText code">
-        <mkdir dir="${itext.bin}/com/lowagie/text/pdf/fonts" />
-        <copy todir="${itext.bin}/com/lowagie/text/pdf/fonts" overwrite="yes">
-            <fileset dir="${itext.src}/core/com/lowagie/text/pdf/fonts">
+        <mkdir dir="${itext.bin}/com.itextpdf/text/pdf/fonts" />
+        <copy todir="${itext.bin}/com.itextpdf/text/pdf/fonts" overwrite="yes">
+            <fileset dir="${itext.src}/core/com/itextpdf/text/pdf/fonts">
                 <include name="**/*.afm"/>
                 <include name="**/*.html"/>
             </fileset>
         </copy>
-        <copy todir="${itext.bin}/com/lowagie/text/" overwrite="yes">
-            <fileset dir="${itext.src}/core/com/lowagie/text/">
+        <copy todir="${itext.bin}/com.itextpdf/text/" overwrite="yes">
+            <fileset dir="${itext.src}/core/com/itextpdf/text/">
                 <include name="**/*.txt"/>
             </fileset>
         </copy>
         <jar jarfile="${itext.jar}" basedir="${itext.bin}">
             <manifest>
-                <attribute name="Main-Class" value="com.lowagie.tools.ToolboxAvailable"/>
+                <attribute name="Main-Class" value="com.itextpdf.tools.ToolboxAvailable"/>
                 <!-- <attribute name="Class-Path" value="iText-toolbox.jar iText-toolbox-${releasenumber}.jar ${lib.bcmail} ${lib.bcprov} ${lib.bctsp}"/> -->
             </manifest>
         </jar>
@@ -131,7 +131,7 @@
         </copy>
 		<jar destfile="${itext.rups.jar}" basedir="${itext.rups.bin}" includes="**/*.class, **/*.png">
 		    <manifest>
-                <attribute name="Main-Class" value="com.lowagie.rups.Rups"/>
+                <attribute name="Main-Class" value="com.itextpdf.rups.Rups"/>
                 <attribute name="Class-Path" value="iText-${releasenumber}.jar ${lib.pdf-renderer} ${lib.bcmail} ${lib.bcprov} ${lib.bctsp} ${lib.dom4j}"/>
             </manifest>
 		</jar>
@@ -151,7 +151,7 @@
         </copy>
 		<jar destfile="${itext.toolbox.jar}" basedir="${itext.toolbox.bin}" includes="**/*.class, **/*.png, **/*.txt, **/*.gif">
 		    <manifest>
-                <attribute name="Main-Class" value="com.lowagie.toolbox.Toolbox"/>
+                <attribute name="Main-Class" value="com.itextpdf.toolbox.Toolbox"/>
                 <attribute name="Class-Path" value="iText-${releasenumber}.jar ${lib.bcmail} ${lib.bctsp} ${lib.bcprov}"/>
             </manifest>
 		</jar>

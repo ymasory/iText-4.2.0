@@ -36,5 +36,5 @@
     <jar href="http://www.1t3xt.com/jnlp/iText.jar" main="false" download="eager"/>
     <jar href="http://www.1t3xt.com/jnlp/pdf-renderer.jar" main="false" download="eager"/>
   </resources>
-  <application-desc main-class="com.lowagie.rups.Rups"/>
+  <application-desc main-class="com.itextpdf.rups.Rups"/>
 </jnlp>
