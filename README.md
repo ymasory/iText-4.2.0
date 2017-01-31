@@ -11,7 +11,7 @@ If you'd like to contribute to iText, that's awesome! I encourage you to!
 
 Here are some options:
 - If you are okay with the AGPL, send your contributions [upstream](http://itextpdf.com/).
-- If you want to stay with LGPL/MPL then you can maintain your own fork of this repo, or start a brand new project starting from this code base.
+- A fork of this project with a LGPL/MPL license is actively maintained and developed here: https://github.com/librePDF/OpenPDF/
 
 Good luck!
 
